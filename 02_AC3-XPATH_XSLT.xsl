@@ -11,6 +11,7 @@
 
                 <xsl:for-each select="ite">
                     <h2>Profesores:</h2>
+					<!-- Tabla 1/2 -->
                     <table border="1" cellpadding="5px">
 					    <thead>
 						    <tr>
@@ -30,16 +31,14 @@
 					</table>
 
                     <h2>Director</h2>
-						<ul>
-                    		<li><p>Nombre: <xsl:value-of select="director/nombre"/></p></li>
-                    		<li><p>Despacho: <xsl:value-of select="director/despacho"/></p></li>
-                   		</ul>
+                    	<p>Nombre: <xsl:value-of select="director/nombre"/></p>
+                    	<p>Despacho: <xsl:value-of select="director/despacho"/></p>
                     <h2>Jefe de estudios</h2>
-						<ul>
-                    		<li><p>Nombre <xsl:value-of select="jefe_estudios/nombre"/></p></li>
-                    		<li><p>Despacho <xsl:value-of select="jefe_estudios/despacho"/></p></li>
-						</ul>
+                    	<p>Nombre <xsl:value-of select="jefe_estudios/nombre"/></p>
+                    	<p>Despacho <xsl:value-of select="jefe_estudios/despacho"/></p>
+					
                     <h2>Ciclos formativos</h2>
+					<!-- Tabla 2/2 -->
                     <table border="1" cellpadding="5px">
 					    <thead>
 						    <tr>
@@ -66,13 +65,16 @@
 
 				
 				<h3>Enlaces de interés: </h3>
+				<ul>
+				<!-- Lista no ordenada y enlaces -->
 				<!-- Todos los enlaces se han puesto con el atributo target="_blank" para que se abran en una pestaña nueva -->
-				<p>Página oficial de Edix/Unir: <a href="https://www.edix.com/es/" target="_blank">Sitio web Edix</a></p>
-				<p>Grado de ASIR: <a href="https://unirfp.unir.net/ingenieria/fp-grado-asir/" target="_blank">Sitio web Edix</a></p>
-				<p>Grado DAM: <a href="https://unirfp.unir.net/ingenieria/fp-grado-desarrollo-aplicaciones-multiplataforma-dam/" target="_blank">Sitio web Edix</a></p>
-				<p>Grado DAW: <a href="https://unirfp.unir.net/ingenieria/fp-grado-daw-desarrollo-de-aplicaciones-web/" target="_blank">Sitio web Edix</a></p>
-
+					<li><p>Página oficial de Edix/Unir: <a href="https://www.edix.com/es/" target="_blank">Sitio web Edix</a></p></li>
+					<li><p>Grado de ASIR: <a href="https://unirfp.unir.net/ingenieria/fp-grado-asir/" target="_blank">Sitio web Edix</a></p></li>
+					<li><p>Grado DAM: <a href="https://unirfp.unir.net/ingenieria/fp-grado-desarrollo-aplicaciones-multiplataforma-dam/" target="_blank">Sitio web Edix</a></p></li>
+					<li><p>Grado DAW: <a href="https://unirfp.unir.net/ingenieria/fp-grado-daw-desarrollo-de-aplicaciones-web/" target="_blank">Sitio web Edix</a></p></li>
+				</ul>
 				<h2>Solicitar información</h2>
+				<!-- Formulario -->
 				<form action="procesarPeticion.jsp" method="post">
 					<fieldset>
 						<legend>Datos personales: </legend>
