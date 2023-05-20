@@ -11,7 +11,7 @@
 
                 <xsl:for-each select="ite">
                     <h2>Profesores:</h2>
-                    <table border="1">
+                    <table border="1" cellpadding="5px">
 					    <thead>
 						    <tr>
 							    <th>ID</th>
@@ -40,7 +40,7 @@
                     		<li><p>Despacho <xsl:value-of select="jefe_estudios/despacho"/></p></li>
 						</ul>
                     <h2>Ciclos formativos</h2>
-                    <table border="1">
+                    <table border="1" cellpadding="5px">
 					    <thead>
 						    <tr>
 							    <th>ID</th>
@@ -92,8 +92,9 @@
 
 						<label for="grados">Quiero información sobre el grado de:  </label>
             			<select name="dia_nacimiento">
+							<option value="SEL" selected="true">Selecciona un grado</option>
                 			<option value="ASIR">Sistemas informáticos en red </option>
-                			<option value="DAM" selected="true">Desarrolo de aplicaciones multiplataforma</option>
+                			<option value="DAM" >Desarrolo de aplicaciones multiplataforma</option>
                				<option value="DAW" >Desarrolo de aplicaciones web</option>
                 			
            				 </select>
@@ -130,6 +131,10 @@
 			
 			
 			</body>
+			<footer>
+				<p>Todos los derechos reservados </p>
+				<p>Copyright © 2023 Edix</p>
+			</footer>
 
         </html>
     </xsl:template>
