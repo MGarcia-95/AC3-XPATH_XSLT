@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="02_AC3-XPATH_XSLT.xsl"?>
+<?xml-stylesheet type="text/xsl" href="REQ_1_AC3_XPATH_XSLT.xsl"?>
 
-<!-- <?xml-stylesheet type="text/xsl" href="AC-3_transformacion_XML_XML.xsl"?> -->
+<!-- <?xml-stylesheet type="text/xsl" href="REQ_2_A3_Transform_XML_XML.xsl"?> -->
 
 <ite nombre="Instituto Tecnológico Edix" web="https://institutotecnologico.edix.com" >
     <empresa>Proeduca</empresa>
