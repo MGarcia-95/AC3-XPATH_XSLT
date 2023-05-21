@@ -1,0 +1,31 @@
+h1 {
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(190, 22, 22);
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    
+}
+
+h2 {
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(20, 80, 99);
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-style: normal;
+}
+
+h3 {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(29, 77, 39);
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 25px;
+    
+    
+}

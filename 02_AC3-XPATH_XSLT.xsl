@@ -4,6 +4,7 @@
         <html>
             <head>
                 <title>Instituto Tecnológico Edix</title>
+				<link rel="stylesheet" href="estilos.css" />
             </head>
             <body>
                 <h1><xsl:value-of select="ite/empresa"/></h1>
@@ -64,7 +65,7 @@
                 </xsl:for-each>
 
 				
-				<h3>Enlaces de interés: </h3>
+				<h2>Enlaces de interés: </h2>
 				<ul>
 				<!-- Lista no ordenada y enlaces -->
 				<!-- Todos los enlaces se han puesto con el atributo target="_blank" para que se abran en una pestaña nueva -->
@@ -73,7 +74,7 @@
 					<li><p>Grado DAM: <a href="https://unirfp.unir.net/ingenieria/fp-grado-desarrollo-aplicaciones-multiplataforma-dam/" target="_blank">Sitio web Edix</a></p></li>
 					<li><p>Grado DAW: <a href="https://unirfp.unir.net/ingenieria/fp-grado-daw-desarrollo-de-aplicaciones-web/" target="_blank">Sitio web Edix</a></p></li>
 				</ul>
-				<h2>Solicitar información</h2>
+				<h3>Solicitar información</h3>
 				<!-- Formulario -->
 				<form action="procesarPeticion.jsp" method="post">
 					<fieldset>
