@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="REQ_1_AC3_XPATH_XSLT.xsl"?>
 
-<!-- Aquí se añade el siguiente stylesheet para el requerimiento 2 de la actividad -->
+<!-- Aquí se añade el siguiente stylesheet para el requerimiento 2 de la actividad, aún así, se añade
+otro archivo xml con el mismo contenido-->
 <!-- <?xml-stylesheet type="text/xsl" href="REQ_2_A3_Transform_XML_XML.xsl"?> -->
 
 <ite nombre="Instituto Tecnológico Edix" web="https://institutotecnologico.edix.com" >
