@@ -5,7 +5,7 @@ h1 {
     display: inline-block;
     width: 200px;
     text-align: center;
-    
+    box-shadow: 15px 15px 10px #a9caf5;
 }
 
 h2 {
@@ -16,6 +16,7 @@ h2 {
     width: auto;
     text-align: center;
     font-style: normal;
+    box-shadow: 15px 15px 10px #a9caf5;
 }
 
 h3 {
@@ -26,6 +27,29 @@ h3 {
     width: auto;
     text-align: center;
     font-size: 25px;
+    box-shadow: 15px 15px 10px #a9caf5;
     
-    
+}
+p {
+    font-size: 18px;
+}
+th {
+    font-size: 18px;
+}
+td {
+    font-size: 18px;
+
+}
+fieldset {
+    border-width:10px;
+    border-style: solid;
+    width: 700px;
+}
+
+a:hover{
+    color: rgb(41, 153, 91) !important;
+
+}
+a:visited{
+    color: rgb(2, 83, 158);
 }
